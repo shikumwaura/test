@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>signing</title>
+    <link rel="stylesheet" href="">
+    <style>
+        body{
+            background-color: #3364ff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        form{
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width:33%;
+            height:70vh;
+            margin-top: 40px;
+            border-radius: 10px;
+            padding: 0px;
+        }
+        h2{
+
+            width: 70%;
+            margin-bottom: 5px;
+        }
+        label{
+            padding:10px;
+            width:70%;
+            text-transform: capitalize;
+            font-size:10px;
+            color: gray;
+        }
+        input{
+            width: 200px;
+            border: black 1px solid;
+            border-radius: 10px;
+            background-color: mintcream;
+        }.btn{
+            color: white;
+            background-color:#3364ff;
+            border: black 1px solid;
+            padding: 5px;
+            border-radius:30px;
+            font-size: 10px;
+            margin-bottom: 5px;
+                 }
+
+         #remember-me{
+
+             font-weight: bold;
+             color: black;
+             margin-right: 0;
+         }
+         .border{
+             border: black 1px solid;
+             border-radius: 20px;
+             padding:5px;
+             font-size: 10px;
+         }
+         .login{
+             font-size: smaller;
+             margin-top:20px;
+         }
+         div{
+             margin-top: 5px;
+         }
+         img{
+             width: 10px;
+             height: 9px;
+             object-fit: cover;
+             margin-right:2px;
+         }
+         .rem{
+             display: flex;
+             /*justify-content: center;*/
+         }
+         #rememberme{
+             width: 15px;
+             margin-left: 0;
+         }
+
+
+    </style>
+</head>
+<body>
+<form action="">
+    <h2>SignUp</h2>
+    <label for="name"> Your name</label>
+    <input type="text" id="name">
+    <label for="email">your email</label>
+    <input type="text" id="email">
+    <label for="password">your password</label>
+    <input type="password" id="password">
+
+    <div class="rem">
+    <input type="checkbox" id="rememberme">
+    <label for="rememberme" id="remember-me">Remember me</label>
+    </div>
+
+    <input type="button" value="Create Account" class="btn">
+    or
+    <div class="div">
+    <span class="border"><img src="images/img_5.png" alt="">Signup with Facebook</span>
+    <span class="border"><img src="images/img_3.png" alt="">Signup with Google</span>
+    </div>
+    <span class="login">Already have an Account?<a href="login.html">Login Here</a></span>
+
+</form>
+<script src="signin.js"></script>
+</body>
+</html>

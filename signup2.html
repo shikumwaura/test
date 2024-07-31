@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SignUp</title>
+    <style>
+        body{
+
+
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #296a28;
+        }
+        img{
+            width: 10px;
+            object-fit: cover;
+            margin-right: 2px;
+            height: 9px;
+        }
+        form{
+            background-color:white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items:center;
+            padding: 5px;
+            border-radius:10px;
+            margin-top: 30px;
+            width: 300px;
+            height: 60%;
+
+        }
+        label{
+            text-transform: capitalize;
+            width:210px;
+            padding:8px;
+            font-size:10px;
+            color:grey;
+        }
+        input{
+            border-radius: 10px;
+            width:200px;
+            background-color:mintcream;
+            border: 1px solid black;
+
+        }
+        h2{
+            width:210px;
+            margin-bottom: 5px;
+        }
+       #remember-me{
+           display: inline-block;
+           vertical-align: middle;
+           margin:0;
+           font-weight: bold;
+           font-size: 12px;
+           color: black;
+       }
+       #remember-me input{
+           vertical-align:middle;
+           margin-right:0;
+           width: 10px;
+           height: 10px;
+       }
+
+       .btn{
+           background-color: #296a28;
+           text-transform: capitalize;
+           margin-bottom:5px;
+           padding:4px;
+           color: white;
+           font-size: 11px;
+           border: 1px solid black;
+           width: 200px;
+       }
+       .border-box{
+           display: flex;
+           gap: 10px;
+           margin-bottom: 10px;
+           font-size: medium;
+       }
+       .border{
+           border: 1px black solid;
+           padding: 5px;
+           border-radius: 20px;
+           font-size:10px;
+           height:10px;
+       }
+       p2{
+           font-size: 10px;
+       }
+    </style>
+</head>
+<body>
+
+<form action="">
+    <h2>Sign Up</h2>
+
+    <label for="name">your name</label>
+    <input type="text" id="name">
+
+    <label for="email">your email</label>
+    <input type="text" id="email">
+
+    <label for="password">your password</label>
+    <input type="password" id="password">
+
+
+    <label for="rememberme" id="remember-me">
+    <input type="checkbox" id="rememberme">
+        Remember me
+    </label>
+
+    <input type="button" value="create account" class="btn">
+
+    <p1>or</p1>
+
+<div class="border-box">
+<span class="border"> <img src="images/img_2.png" alt="">Sign up with Facebook</span>
+ <span class="border"><img src="images/img_3.png" alt="">Sign up with Google </span>
+</div>
+
+<p2>Already have an account? <a href="login.html">Login Here</a> </p2>
+</form>
+
+</body>
+</html>

@@ -1,0 +1,47 @@
+body{
+    background-color: mediumblue;
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;*/
+    align-items: center;
+
+}
+h1{
+    color: white;
+}
+form{
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 20px;
+}
+label{
+    /*padding-bottom: 7px;*/
+    margin-top: 10px;
+    font-size: 18px;
+    /*font-weight: bold;*/
+    text-transform: capitalize;
+}
+input{
+    padding: 10px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid gray;
+
+}
+input:focus{
+    outline-color: #296a28;
+}
+.btn{
+    background-color: #296a28;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    height: 60px;
+    text-transform: capitalize;
+
+}

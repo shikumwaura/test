@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Styled Lists</title>
+  <style>
+    ul.custom-list {
+      list-style: square inside url('images/B.jpeg');
+      margin: 0;
+      padding: 0;
+    }
+    ol.custom-list {
+      list-style: upper-roman inside;
+    }
+  </style>
+</head>
+<body>
+  <h2>Unordered List</h2>
+  <ul class="custom-list">
+    <li>Item 1</li>
+    <li>Item 2</li>io
+    <li>Item 3</li>
+  </ul>
+
+  <h2>Ordered List</h2>
+  <ol class="custom-list">
+    <li>First</li>
+    <li>Second</li>
+    <li>Third</li>
+  </ol>
+</body>
+</html>
